@@ -1,13 +1,13 @@
 :root {
-    --white-color: #f2f2f2;
+    --white-color: #fafafa;
     --black-color: #000;
     --text-color: #333;
 }
 
 * {
     box-sizing: inherit;
-    margin :0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -15,7 +15,6 @@ html {
     line-height: 1.6rem;
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
-    
 }
 
 .grid {
