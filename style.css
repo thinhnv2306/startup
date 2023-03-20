@@ -197,3 +197,61 @@ header {
   line-height: 2.8rem;
   font-weight: 500;
 }
+
+/* ABOUT END */
+
+/* WORK INTRO */
+
+.work-intro {
+  height: 615px;
+  padding: 128px 32px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.work-intro__desc {
+  padding-top: 22px;
+  position: relative;
+  width: 500px;
+  height: 100%;
+}
+
+.work-intro__desc-title {
+  font-size: 2.4rem;
+  font-weight: 400;
+  position: absolute;
+}
+
+.work-intro__desc-detail {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  position: absolute;
+  top: 70px;
+}
+
+.work-intro__desc-btn {
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  font-size: 1.6rem;
+  position: absolute;
+  top: 140px;
+  width: 164px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.work-intro__desc-btn i {
+  font-size: 1.6rem;
+  color: var(--white-color);
+  padding-right: 4px;
+}
+
+.work-intro__img img {
+  width: 634px;
+  height: auto;
+  border-radius: 10px;
+}
