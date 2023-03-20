@@ -1,201 +1,199 @@
 /* HEADER  */
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 60px;
-    width: 100%;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    z-index: 1;
-    box-shadow: 1px 0 5px 3px #a9a8a8a4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  box-shadow: 1px 0 5px 3px #a9a8a8a4;
 }
 
 .logo {
-    width: 10%;
-    /* height: 100%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 10%;
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo a {
-    display: block;
-    margin: auto;
-    font-size: 2rem;
-    line-height: 60px;
-    letter-spacing: 5px;
-    text-indent: 5px;
-    color: var(--black-color);
-    text-decoration: none;
-    text-transform: uppercase;
+  display: block;
+  margin: auto;
+  font-size: 2rem;
+  line-height: 60px;
+  letter-spacing: 5px;
+  text-indent: 5px;
+  color: var(--black-color);
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .logo a:hover {
-    background-color: rgb(0, 0, 0, 0.1);
+  background-color: rgb(0, 0, 0, 0.1);
 }
 
 .menu__container {
-    width: 70%;
-    display: flex;
+  width: 70%;
+  display: flex;
 }
 
 .menu {
-    width: 70%;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 70%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.menu>li {}
-
-.menu>li:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+.menu > li {
 }
 
-.menu>li>a {
-    display: block;
-    text-decoration: none;
-    color: var(--black-color);
-    font-size: 1.6rem;
-    font-weight: 300;
-    padding: 2rem 1.6rem;
-    text-transform: uppercase;
+.menu > li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-.menu>li>a>i {
-    padding-right: 5px;
+.menu > li > a {
+  display: block;
+  text-decoration: none;
+  color: var(--black-color);
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 2rem 1.6rem;
+  text-transform: uppercase;
 }
 
+.menu > li > a > i {
+  padding-right: 5px;
+}
 
 /* END HEADER  */
-
 
 /* BANNER */
 
 .banner {
-    width: 100%;
-    height: calc(100vh);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(/startup/assets/img/mac.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(50%);
-    /* margin-top: 60px; */
+  width: 100%;
+  height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(/startup/assets/img/mac.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(50%);
+  /* margin-top: 60px; */
 }
 
 .banner__img {
-    margin-left: 48px;
-    height: auto;
-    position: relative;
+  margin-left: 48px;
+  height: auto;
+  position: relative;
 }
 
 .banner__img .banner__slogan {
-    font-size: 6.4rem;
-    font-weight: 400;
-    color: var(--white-color);
-    display: block;
-    position: absolute;
-    top: -88px;
+  font-size: 6.4rem;
+  font-weight: 400;
+  color: var(--white-color);
+  display: block;
+  position: absolute;
+  top: -88px;
 }
 
 .banner__img .banner__intro {
-    color: var(--white-color);
-    display: block;
-    font-size: 1.8rem;
-    /* margin-top: 30px; */
-    position: absolute;
-    top: 12px;
+  color: var(--white-color);
+  display: block;
+  font-size: 1.8rem;
+  /* margin-top: 30px; */
+  position: absolute;
+  top: 12px;
 }
 
 .banner__img .banner__about--btn {
-    font-size: 1.8rem;
-    text-decoration: none;
-    color: var(--black-color);
-    background-color: rgb(255, 255, 255, 0.6);
-    display: block;
-    padding: 20px 24px;
-    width: fit-content;
-    margin-top: 50px;
-    font-weight: 400;
-    position: absolute;
-    top: 17px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: var(--black-color);
+  background-color: rgb(255, 255, 255, 0.6);
+  display: block;
+  padding: 20px 24px;
+  width: fit-content;
+  margin-top: 50px;
+  font-weight: 400;
+  position: absolute;
+  top: 17px;
 }
 
 .banner__img .banner__about--btn:hover {
-    background-color: rgb(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255, 0.8);
 }
 
 .banner_social {
-    position: absolute;
-    bottom: 30px;
-    left: 48px;
-    display: flex;
-    list-style: none;
-    font-size: 1.6rem;
-    /* background-color: #c0c0c0fe; */
+  position: absolute;
+  bottom: 30px;
+  left: 48px;
+  display: flex;
+  list-style: none;
+  font-size: 1.6rem;
+  /* background-color: #c0c0c0fe; */
 }
 
 .banner_social li {
-    padding: 0 3px;
+  padding: 0 3px;
 }
 
 .banner_social li a {
-    text-decoration: none;
-    color: #ffffff6d;
+  text-decoration: none;
+  color: #ffffff6d;
 }
-
 
 /* == ABOUT SECTION */
 
 .about {
-    height: 100vh;
-    width: 100%;
-    padding: 147px 16px;
+  height: 642px;
+  width: 100%;
+  padding: 147px 16px 0 16px;
 }
 
 .about__header {
-    font-size: 2.4rem;
-    font-weight: 400;
-    text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 .about__point {
-    display: block;
-    font-size: 1.8rem;
-    text-align: center;
-    margin: 40px 0px 50px 0px;
+  display: block;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 40px 0px 50px 0px;
 }
 
 .about__detail {
-    display: flex;
-    text-align: center;
-    height: 270px;
+  display: flex;
+  text-align: center;
+  height: 270px;
 }
 
 .about__detail-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 0 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 6px;
 }
 
 .about__detail-item i {
-    font-size: 6.5rem;
+  font-size: 6.5rem;
 }
 
 .about__detail-title {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .about__detail-content {
-    font-size: 1.5rem;
-    line-height: 2.8rem;
-    font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 2.8rem;
+  font-weight: 500;
 }
