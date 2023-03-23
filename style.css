@@ -4,7 +4,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 60px;
+  height: 56px;
   width: 100%;
   background-color: #fff;
   display: flex;
@@ -155,11 +155,11 @@ header {
 .about {
   height: 640px;
   width: 100%;
-  padding: 149px 16px 0 16px;
+  padding: 128px 16px;
 }
 
 .about__header {
-  font-size: 2.1rem;
+  font-size: 2.4em;
   height: 43px;
   line-height: 43px;
   font-weight: 400;
@@ -168,7 +168,7 @@ header {
 
 .about__point {
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   height: 32px;
   line-height: 32px;
   text-align: center;
@@ -192,12 +192,12 @@ header {
 }
 
 .about__detail-title {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 30px;
 }
 
 .about__detail-content {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 2.2rem;
   font-weight: 400;
   margin-top: 0;
@@ -209,40 +209,46 @@ header {
 
 .work-intro {
   height: 650px;
-  padding: 128px 32px;
+  padding: 128px 16px;
   background-color: #f1f1f1;
+}
+
+.work-intro-container {
   display: flex;
   align-items: flex-start;
+  height: 394px;
+  padding: 0 8px;
 }
 
 .work-intro__desc {
-  padding-top: 22px;
+  padding: 16px 8px 0 8px;
   position: relative;
   width: 50%;
   height: 100%;
 }
 
 .work-intro__desc-title {
-  font-size: 2.1rem;
+  font-size: 2.4rem;
   font-weight: 400;
 }
 
 .work-intro__desc-detail {
-  font-size: 1.4rem;
-  line-height: 2.4rem;
-  margin-top: 26px;
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+  margin-top: 28px;
 }
 
 .work-intro__desc-btn {
   display: block;
-  margin-top: 22px;
+  margin-top: 15px;
+  padding: 8px 10px;
   text-decoration: none;
   color: var(--white-color);
   background-color: var(--black-color);
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  line-height: 27px;
   width: 164px;
   height: 43px;
-  line-height: 44px;
   text-align: center;
 }
 
@@ -252,7 +258,9 @@ header {
   padding-right: 4px;
 }
 
-..work-intro__img {
+.work-intro__img {
+  padding: 0px 8px;
+  width: 50%;
 }
 
 .work-intro__img img {
@@ -261,9 +269,53 @@ header {
   border-radius: 10px;
 }
 
+/* WORK INTRO END */
+
 /*  MEMBER */
 
 .member {
   width: 100%;
-  height: 100vh;
+  padding: 136px 30px;
+  height: 975px;
+}
+
+.member__title {
+  font-size: 2.4em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.member__intro {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.member__items {
+  width: 100%;
+  height: 551px;
+  padding-bottom: 16px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.member__item {
+  width: 447px;
+}
+
+.member__item img {
+  width: 100%;
+  filter: grayscale(70%);
+}
+
+/*  MEMBER END */
+
+/*  WORK QUANTITY START */
+
+.work-quantity {
+  width: 100%;
+  height: 500px;
 }
