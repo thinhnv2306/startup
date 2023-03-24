@@ -81,7 +81,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(/startup/assets/img/mac.jpg);
+  background-image: url(/assets/img/mac.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -275,7 +275,7 @@ header {
 
 .member {
   width: 100%;
-  padding: 136px 30px;
+  padding: 136px 22px;
   height: 975px;
 }
 
@@ -299,11 +299,11 @@ header {
   padding-bottom: 16px;
   margin-top: 70px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .member__item {
-  width: 447px;
+  width: 448px;
 }
 
 .member__item img {
